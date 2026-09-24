@@ -25,7 +25,7 @@ Toggle **Pitch notes** in the top bar (or add `?notes=1` to the URL) to overlay 
 
 ## Before you present: placeholders to confirm
 
-- [ ] Replace **“Your Studio”** with your studio name (find/replace across `*.html`).
+- [x] Credit set to **Jonathan Williams** (find/replace across `*.html` to change it).
 - [ ] **Hours**: the mockup mirrors sierrastkitchen.com (Sun–Thu 4–9, Fri–Sat 4–midnight). Other platforms disagree; see `docs/research-notes.md`.
 - [ ] **Prices**: a dash (—) means no price was published online. Bacon-wrapped dates at $16 comes from Yelp's listing.
 - [ ] **Menu gaps**: the “half the menu is unpriced, one dish has no name” finding comes from a crawl. Check it on the live page in a browser.
