@@ -23,6 +23,13 @@ Toggle **Pitch notes** in the top bar (or add `?notes=1` to the URL) to overlay 
 - **From source:** `npm run serve`, then open <http://localhost:8080>. Or open `index.html` directly in a browser.
 - **Quick look:** full-page renders are in `screenshots/` (desktop 1440px and mobile 390px, plus a notes-on version of the homepage).
 
+## Hosting
+
+`vercel.json` and `netlify.toml` tell either host to publish **only** the four pages in `dist/`. The source, screenshots and research notes are not deployed. Both also send a `noindex` header so the concept stays out of search results.
+
+- **Vercel:** Add New → Project → import this repo. The config handles the rest.
+- **Netlify:** Add new site → Import from Git → pick this repo. Or drag the `dist/` folder onto Deploy manually.
+
 ## Before you present: placeholders to confirm
 
 - [x] Credit set to **Jonathan Williams** (find/replace across `*.html` to change it).
