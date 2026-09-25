@@ -1,0 +1,12 @@
+# Netlify: serve the prebuilt single-file pages in dist/ (no build step).
+[build]
+  publish = "dist"
+  command = "echo 'Static site: serving the prebuilt dist/ folder'"
+
+[build.environment]
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
